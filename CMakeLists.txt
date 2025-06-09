@@ -3,4 +3,4 @@ project(cstdlib C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(cstdlib STATIC library.c)
+add_library(cstdlib STATIC cstdlib.c)
